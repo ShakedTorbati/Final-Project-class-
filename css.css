@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#head {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+}
+
+#head button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+img {
+    align-items: center;
+    width: 350px;
+    height: 300px;
+}
+#game_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
